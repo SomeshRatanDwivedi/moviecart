@@ -1,0 +1,22 @@
+.parent{
+    width: 60%;
+    margin: auto;
+}
+
+.parent ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .parent {
+            width: 100%;
+        }
+}
+
+
+
+

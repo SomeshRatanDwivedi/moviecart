@@ -1,0 +1,32 @@
+.navbarParent{
+    height: 100px;
+    background-color: tomato;
+    color: white;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.leftDiv{
+    flex: 3;
+}
+.midDiv {
+    flex: 6;
+    display: flex;
+    justify-content: center;
+}
+
+.midDiv a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.midDiv a:hover{
+    color: blue;
+}
+.rightDiv {
+    flex: 3;
+}

@@ -1,0 +1,35 @@
+.listStyle {
+    width: 200px;
+    height: 300px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upperDiv {
+    width: 100%;
+    height: 200px;
+}
+
+.upperDiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lowerDiv {
+    padding: 10px;
+}
+
+.lowerDiv p {
+    margin-top: 5px;
+}
+
+.lowerDiv p span {
+    font-weight: 600;
+    margin-right: 5px;
+}
+
